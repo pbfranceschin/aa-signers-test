@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "aa-signers-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@alchemy/aa-core": "^1.2.4",
+    "@alchemy/aa-signers": "^1.2.4",
+    "@web3auth/base": "^7.2.1",
+    "@web3auth/modal": "^7.3.0",
+    "next": "13.5.6",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.6"
+    "viem": "^1.20.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "13.5.6"
+    "eslint-config-next": "13.5.6",
+    "typescript": "^5"
   }
 }
